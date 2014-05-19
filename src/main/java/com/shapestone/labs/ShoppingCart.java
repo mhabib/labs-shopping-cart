@@ -11,4 +11,8 @@ public interface ShoppingCart {
     double calculateTotal();
 
     void emptyShoppingCart();
+
+	Integer getOrderItemCount();
+
+	Integer getProductItemCount();
 }
