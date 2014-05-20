@@ -153,5 +153,5 @@ public class ShoppingCartTest {
         assertThat(shoppingCart.getOrderItemCount(), is(equalTo(0)));
         assertThat(shoppingCart.getProductItemCount(), is(equalTo(0)));
         assertThat(shoppingCart.calculateTotal(), is(equalTo(0D)));
-    }
+    } 
 }
